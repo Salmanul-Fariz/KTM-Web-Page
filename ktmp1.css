@@ -1,0 +1,432 @@
+body{
+    margin: 0;
+}
+@font-face{
+    font-family: blender pro;
+    src: url(font/BlenderPro-Heavy.ttf);
+}
+@font-face{
+    font-family: blender pro bold;
+    src: url(font/BlenderPro-Bold.ttf);
+}
+@font-face{
+    font-family: blender pro medium;
+    src: url(font/BlenderPro-Medium.ttf);
+}
+@font-face{
+    font-family: gothic LT;
+    src: url(font/Trade\ Gothic\ LT\ Light.ttf);
+}
+.body-top{
+    width: 1349px;
+    height: 500px;
+    background-image: url(photo/waw-video2_XLarge.jpg);
+    background-size: 1349px 762px;
+    background-position: 0px -125px;
+}
+.title-bar{
+    width: 94%;
+    height: 145px;
+    padding-left: 42px;
+    padding-right: 39px;
+}
+.title-option{
+    float: left;
+    width: 672px;
+    height: 40px;
+    padding: 52.5px 0px;
+}
+.unlist{
+    display: inline-flex;
+    padding: 0;
+    font-family:blender pro;
+    font-size: 21px;
+}
+.title-names{
+    list-style-type: none; 
+    padding-right: 38px;
+    font-weight: bold;
+    font-size: 17px;
+    color:#ffffffe6;
+}
+.title-names:hover{
+    cursor: pointer;
+}
+.title-icon-bar{
+    float: left;
+    height: 20px;
+    width: 100px;
+    padding: 67.5px 0px;
+    margin-left: 305px;
+}
+.location-icon{
+    float: left;
+    height: 20px;
+    width: 25px;
+    padding-right: 30px;
+}
+.location-icon:hover{
+    cursor: pointer;
+}
+.global-icon{
+    float: left;
+    height: 20px;
+}
+.global-icon:hover{
+    cursor: pointer;
+}
+.ktm-logo{
+    height: 145px;
+    margin-left: 30px;
+    float: left;
+}
+.ktm-logo:hover{
+    cursor: pointer;
+}
+.body-box{
+    width: 742px;
+    height: 250px;
+    margin-left: 308px;
+    text-align: center;
+    padding-top: 16px;
+}
+.body-text{
+    width:742px ;
+    height: 140px;
+}
+.text1{
+    font-weight: 700;
+    font-size: 24px;
+    font-family: blender pro;
+    color: white;
+}
+.text2{
+    font-weight: 700;
+    font-size: 85px;
+    font-family: blender pro;
+    color: white;
+    margin: 0;
+}
+.body-button{
+    width: 742px;
+    height: 75px;
+}
+.button1{
+    height: 75px;
+    font-family: 'blender pro';
+    font-size: 22px;
+    margin: 0 20px;
+    width: 190px;
+    border: solid;
+    border-color:#f60;
+    background-color: #f60;
+    color: white;
+}
+.button1:hover{
+    cursor:pointer;
+    background: transparent;
+    color: #f60;
+}
+.button2{
+    height: 75px;
+    font-family: 'blender pro';
+    font-size: 22px;
+    margin: 0 20px;
+    width: 260px;
+    border: solid;
+    border-color: #f60;
+    background-color: #f60;
+    color: white;
+}
+.button2:hover{
+    cursor:pointer;
+    background: transparent;
+    color: #f60;
+}
+.body-sec1{
+    width: 1290px;
+    height: 392px;
+    padding-left:48px;
+    padding-top: 80px;
+    text-align: center;
+}
+.sec1{
+    float: left;
+    width: 410px;
+    height:392px;
+    padding-right: 20px;
+}
+.sec1:hover{
+    cursor: pointer;
+}
+.sec1-image{
+    width: 410px;
+    height: 310px;
+}
+.sec1-text1{
+    font-family: 'blender pro';
+    font-size: 18px;
+    margin-top: 18px;
+}
+.sec1-text2{
+    font-family: 'blender pro';
+    font-size: 28px;
+    margin-top: 18px;
+}
+.body-sec2{
+    width: 1320px;
+    height: 730px;
+    padding-left: 45px;
+    padding-top: 80px;
+}
+.sec2{
+    width: 385px;
+    height: 730px;
+    float: left;
+    padding-right: 55px;
+}
+.sec2-image{
+    width: 385px;
+    height: 385px;
+}
+.sec2-image:hover{
+    cursor: pointer;
+}
+.sec2-text1{
+    font-family: 'blender pro bold';
+    font-size: 18px;
+    margin: 0;
+    margin-top: 25px;
+}
+.sec2-text2{
+    font-family: 'blender pro';
+    font-size: 36px;
+    margin: 0;
+    margin-top: 16px;
+}
+.sec2-text2:hover{
+    color: #f60;
+    cursor: pointer;
+}
+.sec2-text3{
+    font-family:sans-serif;
+    font-size: 18px;
+    margin: 0;
+    margin-top: 25px;
+    line-height: 32px;
+}
+.body-sec3{
+    width: 1269px;
+    height: 480px;
+    padding-top: 90px;
+    padding-left: 35px;
+}
+.sec3-col1{
+    float: left;
+    width: 640px;
+    height: 480px;
+}
+.sec3-col1{
+    cursor: pointer;
+}
+.col1-box-vid{
+    float: left;
+    width: 320;
+    height: 240px;
+}
+.col1-box-img{
+    float: left;
+    width: 320;
+    height: 240px;
+}
+.sec3-col2{
+    float: left;
+    width: 629px;
+    height: 400px;
+    padding-top: 80px;
+    text-align: center;
+    background-color: black;
+}
+.sec3-col2-text1{
+    height: 112px;
+    margin: 0;
+    font-family: blender pro;
+    font-size: 53px;
+    color: white;
+    padding-bottom: 8px;
+}
+.sec3-col2-text2{
+    width: 60px;
+}
+.sec3-col2-text3{
+    color: #bdbdbd;
+    font-family: sans-serif;
+    margin: 0;
+    font-size: 17px;
+    margin-top: 30px;
+}
+.sec3-col2-button{
+    height: 18px;
+    width: 105px;
+    border: solid;
+    border-width: 1px;
+    margin-left: 220px;
+    margin-top: 62px;
+    border-color: white;
+    padding: 26px 39px;
+}
+.sec3-col2-button:hover{
+    cursor: pointer;
+    border-color: #f60;
+    color: #f60;
+}
+.sec3-col2-button-icon{
+    float: left;
+    height: 16px;
+    padding-right: 7px;
+}
+.sec3-col2-button-text{
+    color: white;
+    margin: 0px;
+    font-family: 'blender pro bold';
+    font-size: 20px;
+    width: 114px;
+    margin-top: -3px;
+}
+.body-sec4{
+    height: 75px;
+    width: 476px;
+    padding-left: 455px;
+    padding-top: 60px;
+    padding-bottom: 75px;
+}
+.sec4-text{
+    font-family: 'blender pro bold';
+    font-size: 25px;
+    color: black;
+    float: left;
+    padding-right: 25px;
+}
+.sec4-button{
+    border: solid;
+    border-color: #f60;
+    color: #f60;
+    width: 166px;
+    height: 75px;
+    background-color: white;
+    font-family: 'blender pro bold';
+    font-size: 20px;
+}
+.sec4-button:hover{
+    background-color: #f60;
+    cursor: pointer;
+    color: white;
+}
+.body-sec5{
+    height: 225px;
+    width: 1349px;
+    padding: 0 280px;
+    max-width: 790px;
+    text-align: center;
+    font-weight: 300;
+    color: #bdbdbd;
+}
+.sec5-text{
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+}
+.footer{
+    width: 1305px;
+    height: 586px;
+    background-color: black;
+    padding-top: 88px;
+    padding-left: 45px
+}
+.footer-text-bar1{
+    height: 415px;
+    width: 255px;
+    float: left;
+    padding-bottom: 55px;
+}
+.footer-text-bar2{
+    height: 415px;
+    width: 280px;
+    float: left;
+}
+.footer-text-bar3{
+    height: 415px;
+    width: 285px;
+    float: left;
+}
+.footer-text-bar4{
+    height: 415px;
+    width: 235px;
+    float: left;
+}
+.footer-text1{
+    color: white;
+    font-family: blender pro;
+    font-size: 25px;
+    margin: 0;
+    padding-bottom: 35px;
+}
+.footer-text-ol{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    line-height: 36px;
+}
+.footer-text-list{
+    font-family: sans-serif;
+    color: white;
+    font-size: 18px;
+}
+.footer-text-list:hover{
+    cursor: pointer;
+    color: #f60;
+}
+.footer-icon-bar{
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+.footer-icon1{
+    width: 26px;
+    height: 26px;
+    padding-right: 25px;
+}
+.footer-icon2{
+    width: 35px;
+    height: 26px;
+}
+.footer-line{
+    width: 1270px;
+    background-color: #ffffff47;
+    margin: 0;
+}
+.footer-last-bar{
+    width:1270px ;
+    height: 34px;
+    padding: 40px 0px;
+}
+.footer-last-bar-text1{
+    float: left;
+    margin: 0px;
+    margin-top: 6px;
+    color: #ffffff7a;
+    font-family: gothic LT;
+    font-size: 14px;
+}
+.footer-last-bar-text2{
+    float: right;
+    margin: 0px;
+    color: #f60;
+    margin: 0;
+    width: 165px;
+    font-family: 'blender pro bold';
+    font-size: 20px;
+}
+.footer-last-bar-text2:hover{
+    cursor: pointer;
+}
